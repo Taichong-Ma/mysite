@@ -367,17 +367,8 @@
       </div>
     </header>
     <!-- Page Content-->
-    <!-- Hero-->
-    <section class="bg-dark bg-center-top bg-no-repeat position-relative pt-5 pb-4 pb-md-5" style="background-image: url(img/homepages/theme-presentation/hero-bg-back.jpg);">
-      <div class="img-cover bg-auto d-none d-md-block" style="background-image: url(/static/img/homepages/theme-presentation/hero-bg-front.jpg);"></div>
-      <div class="container bg-content py-5 my-md-5 text-center text-md-left">
-        <div class="pb-md-5 mt-5 mb-md-5">
-          <div class="d-inline-block h6 text-lg bg-white px-3 py-2 mt-md-4">Jacqueline Chen</div>
-          <h1 class="display-3 text-white"><span class="d-block break-word">Cute</span><span class="d-block break-word">Mighty</span><span class="d-block break-word">Superwoman</span></h1>
-        </div>
-      </div>
-    </section>
-    <div class="bg-dark" style="height: 250px;"></div>
+    {% block content %}
+    {% endblock %}
 
     <!-- Back To Top Button--><a class="scroll-to-top-btn" href="#"><i class="fe-icon-chevron-up"></i></a>
     <!-- Backdrop-->
